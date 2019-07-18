@@ -41,11 +41,19 @@
 #### - mapState
 - Vuex에 선언한 state 속성을 뷰 컴포넌트에 더 쉽게 연결해주는 헬퍼
 
+![mapState](./mapState.JPG)
+
 #### - mapGetters
 - Vuex에 선언한 getters 속성을 뷰 컴포넌트에 더 쉽게 연결 해주는 헬퍼
+
+![mapGetters](./mapGetters.JPG)
 
 #### - mapMutations
 - Vuex에 선언한 mutations 속성을 뷰 컴포넌트에 더 쉽게 연결 해주는 헬퍼
 
+![mapMutations](./mapMutations.JPG)
+
 #### - mapActions
 - Vuex에 선언한 actions 속성을 뷰 컴포넌트에 더 쉽게 연결 해주는 헬퍼
+
+![mapActions](./mapActions.JPG)
