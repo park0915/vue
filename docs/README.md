@@ -2,7 +2,7 @@
 
 ## (2019-07-18)
 
-### - Vuex
+### Vuex
 
 ![vuex](vuex.png)
 
@@ -21,7 +21,7 @@
 
 <br>
 
-### - Computed
+### Computed
 - data 속성에 변화가 있을때 자동으로 다시 연산
 
 #### - methods vs computed
@@ -33,3 +33,19 @@
 - watch : 데이터 호출과 같은 시간이 상대적으로 더 많이 소모되는 비동기 처리
 
 ![비교](./비교.JPG)
+
+<br>
+
+### map 헬퍼 함수
+
+#### - mapState
+- Vuex에 선언한 state 속성을 뷰 컴포넌트에 더 쉽게 연결해주는 헬퍼
+
+#### - mapGetters
+- Vuex에 선언한 getters 속성을 뷰 컴포넌트에 더 쉽게 연결 해주는 헬퍼
+
+#### - mapMutations
+- Vuex에 선언한 mutations 속성을 뷰 컴포넌트에 더 쉽게 연결 해주는 헬퍼
+
+#### - mapActions
+- Vuex에 선언한 actions 속성을 뷰 컴포넌트에 더 쉽게 연결 해주는 헬퍼
