@@ -1,30 +1,18 @@
-# vue-news
+# [[Vue Study]]
 
-## Project setup
-```
-yarn install
-```
+## (2019-07-18)
 
-### Compiles and hot-reloads for development
-```
-yarn run serve
-```
+### - Vuex란?
 
-### Compiles and minifies for production
-```
-yarn run build
-```
+![vuex](vuex.png)
 
-### Run your tests
-```
-yarn run test
-```
+- Vuex는 Vue.js 애플리케이션에 대한 [상태 관리 패턴](#상태-관리-패턴) + 라이브러리 입니다.
+- 애플리케이션의 모든 컴포넌트에 대한 중앙 집중식 저장소 역할 및 예측 가능한 방식으로 상태를 변경할 수 있습니다.
 
-### Lints and fixes files
-```
-yarn run lint
-```
+#### - 상태 관리 패턴
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
-"# vue" 
+![상태관리패턴](./상태관리패턴.JPG)
+
+- 상태 는 앱을 작동하는 원본 소스 입니다.
+- 뷰 는 상태의 선언적 매핑입니다.
+- 액션 은 뷰 에서 사용자 입력에 대해 반응적으로 상태를 바꾸는 방법입니다.
