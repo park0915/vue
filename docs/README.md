@@ -1,4 +1,4 @@
-# [Vue Study]
+# [[Vue Study]]
 
 ## (2019-07-18)
 
